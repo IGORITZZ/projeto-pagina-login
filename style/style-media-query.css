@@ -1,0 +1,47 @@
+@charset "UTF-8";
+:root{
+    --cor1: #49a09d;
+    --cor2: #5f2c82;
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: #49a09d;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+    /* VERSÃO DE TABLET */
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    }
+    #login{
+        width: 90vw;
+    }
+    #imagem{
+        background-image: url(../images/images.png);
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width:992px){
+    body{
+        background-image: linear-gradient(to top, var(--cor1), var(--cor2));
+    }
+    #login{
+        width: 992px;
+    }
+    #imagem{
+        background-image: url(../images/desing-patterns.jpg);
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+    #formulario{
+        float: right;
+        width: 50%;
+   }
+}
