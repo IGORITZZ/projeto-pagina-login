@@ -15,6 +15,7 @@
     }
     #login{
         width: 90vw;
+        height: 270px;
     }
     #imagem{
         background-image: url(../images/desing-patterns.jpg);
@@ -34,6 +35,7 @@
     }
     #login{
         width: 992px;
+        height: 310px;
     }
     #imagem{
         background-image: url(../images/desing-patterns.jpg);
@@ -43,7 +45,7 @@
         height: 100%;
     }
     #formulario{
-        float: right;
+        float: left;
         width: 50%;
    }
    #formulario > h1{
