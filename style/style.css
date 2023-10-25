@@ -34,9 +34,9 @@ main{
     transition-timing-function: ease;
 }
 #imagem{
-    background: var(--cor2) url(../images/images.jpeg);
+    background: var(--cor2) url(../images/desing-patterns.jpg);
     background-size: cover;
-    background-position: top right;
+    background-position: center center;
     background-repeat: no-repeat;
     height: 200px;
     display: block;
@@ -44,4 +44,11 @@ main{
 #formulario{
     display: block;
     padding: 10px;
+}
+#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#formulario > p{
+    font-size: 0.8em;
 }

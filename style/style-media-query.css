@@ -5,7 +5,7 @@
 }
 @media screen and (max-width: 768px){
     body{
-        background-color: #49a09d;
+        background-color: var(--cor2);
     }
 }
 @media screen and (min-width: 768px) and (max-width:992px){
@@ -17,7 +17,8 @@
         width: 90vw;
     }
     #imagem{
-        background-image: url(../images/images.png);
+        background-image: url(../images/desing-patterns.jpg);
+        background-position: left center;
         float: left;
         width: 30%;
         height: 100%;
@@ -36,7 +37,8 @@
     }
     #imagem{
         background-image: url(../images/desing-patterns.jpg);
-        float: left;
+        background-position: right center;
+        float: right;
         width: 40%;
         height: 100%;
     }
@@ -44,4 +46,10 @@
         float: right;
         width: 50%;
    }
+   #formulario > h1{
+    font-size: 2em;
+}
+#formulario > p{
+    font-size: 01.2em;
+}
 }
